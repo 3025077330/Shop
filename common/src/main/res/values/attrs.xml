@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToolBar">
+        <attr name="left_show" format="boolean"></attr>
+        <attr name="right_show" format="boolean"></attr>
+        <attr name="right_show_only_text" format="boolean"></attr>
+        <attr name="title_show" format="boolean"></attr>
+        <attr name="right_src" format="reference"></attr>
+        <attr name="left_src" format="reference"></attr>
+        <attr name="right_text" format="string"></attr>
+        <attr name="title_text" format="string"></attr>
+        <attr name="right_text_color" format="color"></attr>
+        <attr name="right_text_size" format="integer"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="BottomBar">
+        <attr name="select_textcolor" format="color"></attr>
+        <attr name="unselect_textcolor" format="color"></attr>
+    </declare-styleable>
+
+</resources>

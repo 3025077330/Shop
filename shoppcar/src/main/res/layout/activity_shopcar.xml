@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bw.common.view.ToolBar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:left_show="false"
+        app:left_src="@mipmap/back"
+        app:right_show_only_text="true"
+        app:right_text="编辑"
+        app:title_text="购物车" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/shopcarRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/payArea"
+        android:layout_below="@+id/toolbar" />
+
+    <include
+        android:id="@+id/payArea"
+        layout="@layout/view_shopcar_pay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

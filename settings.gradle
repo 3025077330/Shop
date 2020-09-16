@@ -1,0 +1,2 @@
+include ':app', ':user', ':shoppcar', ':framwork', ':net', ':common', ':slide', ':found'
+rootProject.name='Shopping'

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Shopping.iml" filepath="$PROJECT_DIR$/Shopping.iml" group="Shopping" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Shopping/app" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" group="Shopping/common" />
+      <module fileurl="file://$PROJECT_DIR$/found/found.iml" filepath="$PROJECT_DIR$/found/found.iml" group="Shopping/found" />
+      <module fileurl="file://$PROJECT_DIR$/framwork/framwork.iml" filepath="$PROJECT_DIR$/framwork/framwork.iml" group="Shopping/framwork" />
+      <module fileurl="file://$PROJECT_DIR$/net/net.iml" filepath="$PROJECT_DIR$/net/net.iml" group="Shopping/net" />
+      <module fileurl="file://$PROJECT_DIR$/shoppcar/shoppcar.iml" filepath="$PROJECT_DIR$/shoppcar/shoppcar.iml" group="Shopping/shoppcar" />
+      <module fileurl="file://$PROJECT_DIR$/slide/slide.iml" filepath="$PROJECT_DIR$/slide/slide.iml" group="Shopping/slide" />
+      <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" group="Shopping/user" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/normalLayout"
+        android:visibility="visible">
+        <CheckBox android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/allSelect"
+            android:text="全选"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:text="总计"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/allSelect"
+            android:id="@+id/sumNote"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/sumNote"
+            android:id="@+id/sumValue"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="支付"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:id="@+id/payBtn"
+            android:background="@android:color/holo_red_dark"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/editLayout"
+        android:visibility="gone">
+        <CheckBox android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/allEditSelect"
+            android:text="全选"/>
+
+
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="保存"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:id="@+id/saveBtn"
+            android:background="@android:color/holo_red_dark"/>
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="删除"
+            android:textColor="@android:color/black"
+            android:id="@+id/deleteBtn"
+            android:background="@android:color/white"
+            android:layout_toLeftOf="@id/saveBtn"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

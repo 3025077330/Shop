@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bw.common.view.ToolBar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:left_show="false"
+        app:left_src="@drawable/flxj"
+
+        app:right_show="true"
+        app:right_show_only_text="false"
+        app:right_src="@drawable/community_message_icon"
+        app:right_text="消息"
+        app:title_show="false" />
+
+    <EditText
+        android:id="@+id/ed_search"
+        android:layout_width="285dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/search"
+        android:hint="请输入搜索内容" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar" />
+
+    <ImageButton
+        android:id="@+id/ib_top"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/top_btn"
+        android:visibility="gone" />
+
+</RelativeLayout>
+
+

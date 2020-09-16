@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.donkingliang:ConsecutiveScroller:2.6.2@aar">
+    <CLASSES>
+      <root url="file://F:/Android_Gradle/caches/transforms-2/files-2.1/193b9fd19a84fdeaeb5541ebabbdd7d0/ConsecutiveScroller-2.6.2/AndroidManifest.xml" />
+      <root url="jar://F:/Android_Gradle/caches/transforms-2/files-2.1/193b9fd19a84fdeaeb5541ebabbdd7d0/ConsecutiveScroller-2.6.2/jars/classes.jar!/" />
+      <root url="file://F:/Android_Gradle/caches/transforms-2/files-2.1/193b9fd19a84fdeaeb5541ebabbdd7d0/ConsecutiveScroller-2.6.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://F:/Android_Gradle/caches/modules-2/files-2.1/com.github.donkingliang/ConsecutiveScroller/2.6.2/af9cc1cb597737f9d4da6d7b3f9cf8c6fefed2d0/ConsecutiveScroller-2.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

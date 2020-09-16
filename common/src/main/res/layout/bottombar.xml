@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal">
+
+    <RadioGroup
+        android:id="@+id/bottomGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+
+            android:checked="true"
+            android:drawableTop="@drawable/bg_sy"
+            android:gravity="center"
+            android:text="@string/home" />
+
+        <RadioButton
+            android:id="@+id/type"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/bg_fl"
+            android:gravity="center"
+            android:text="@string/type" />
+
+        <RadioButton
+            android:id="@+id/find"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/bg_find"
+            android:gravity="center"
+            android:text="@string/find" />
+
+        <RadioButton
+            android:id="@+id/shopcar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/bg_car"
+            android:gravity="center"
+            android:text="@string/shopcar" />
+
+        <RadioButton
+            android:id="@+id/mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/bg_my"
+            android:gravity="center"
+            android:text="@string/mine" />
+
+
+    </RadioGroup>
+
+
+</LinearLayout>

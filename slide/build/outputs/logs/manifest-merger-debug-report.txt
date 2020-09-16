@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml:2:1-8:12
+INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml:2:1-8:12
+INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml:2:1-8:12
+INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml:2:1-8:12
+INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml:2:1-8:12
+INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml:2:1-8:12
+INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml:3:5-50
+		INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+		INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml:5:5-30
+		INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+		INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml:4:5-28
+		INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+		INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+uses-sdk
+INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+		ADDED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+		INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+		ADDED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
+		INJECTED from E:\AndroidFive\Shopping\slide\AndroidManifest.xml
